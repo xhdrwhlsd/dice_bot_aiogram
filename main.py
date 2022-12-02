@@ -33,7 +33,7 @@ x = ['щелбан', 'фофан', 'лось', 'конь']
 bot = Bot(token=cfg.TOKEN)
 dp = Dispatcher(bot)
 
-
+#ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
 
 
 
